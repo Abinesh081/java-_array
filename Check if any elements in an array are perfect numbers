@@ -1,0 +1,43 @@
+
+public class Array 
+{
+public static void main(String[] args) 
+{
+Array lb = new Array();
+lb.perfect(6);
+ int ar[]= {3,5,28,12};
+	 lb.array_perfect(ar);
+}
+private void array_perfect(int[] ar) 
+{
+perfect(28);
+perfect(12);
+}
+private void perfect(int no) 
+{
+		int perfect = 0;
+		int i=1;
+		while(i<=no/2)	
+		{
+			if(no%i==0)
+		   perfect=  perfect + i;
+			i++;
+		}
+		{
+		if(no==perfect)
+		{
+			System.out.println("perfect no is" + " " + no);
+		}
+		else
+		{
+			System.out.println("not perfect no is" + " " + no);
+		}
+		
+	}
+	}
+  
+  OUTPUT:
+  
+perfect no is  6
+perfect no is  28
+not perfect no is  12
