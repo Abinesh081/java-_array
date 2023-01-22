@@ -6,7 +6,7 @@ public static void main(String[] args)
 Array lb = new Array();
 lb.perfect(6);
  int ar[]= {3,5,28,12};
-	 lb.array_perfect(ar);
+lb.array_perfect(ar);
 }
 private void array_perfect(int[] ar) 
 {
